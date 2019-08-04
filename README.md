@@ -5,7 +5,7 @@ Modelling pressure and temperature of regenerative cooling tubes in a rocket noz
 
 Given:  RL10-3-3A, LOX/LH2 propellants,  nozzle wall coordinates, local tube cross-sectional area and perimeter, Chamber pressure and mixture ratio (475 psi and 5), Manifold pressure and temperature of coolant (1000 psi, and 100R)
 
-Assumptions: 1-D Flow, friction, temperature-dependent properties, convection/conduction heat transfer
+Assumptions: 1-D compressible flow, friction, temperature-dependent properties, convection/conduction heat transfer
 
 Using ???? for gas convection transfer coefficient and ??? for liquid heat transfer coefficient.
 
