@@ -7,7 +7,9 @@ Given:  RL10-3-3A, LOX/LH2 propellants,  nozzle wall coordinates, local tube cro
 
 Assumptions: 1-D compressible flow, friction, temperature-dependent properties, convection/conduction heat transfer
 
-Using ???? for gas convection transfer coefficient and ??? for liquid heat transfer coefficient.
+Methodology: Solved for combustion properties using NASA CEA, split tube length into elements, for each element use coolant liquid temp and pressure from previous element, solve for combustion properties at each element location assuming isentropic flow, solve for heat flux through the wall, and update next elements temperature and pressure
+
+Solving for heat transfer through the tube walls, McAdams correlation was used for gas convection transfer coefficient and Seider-Tate correlation was used for liquid heat transfer coefficient. Because these are dependent on the temperature of the wall on the gas and liquid side, an iterative approach is needed to solve for a consistent heat flux through the gas and liquid sides.
 
 Run through Main.m
 

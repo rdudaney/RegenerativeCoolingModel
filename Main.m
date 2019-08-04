@@ -148,6 +148,7 @@ for i = length(z):-1:1
     % Iterate through Tw guess
     delta_q = error+1;
     Twg_guess = 27; % K
+    %should have used bisection method
     j = 0;
     while (delta_q >=error) && (j <= stop_count)
        j = j+1;
