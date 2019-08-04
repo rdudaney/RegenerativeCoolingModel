@@ -1,0 +1,12 @@
+problem  rocket eq
+ fac o/f=   5.0000,
+ac/at=   4.8000 
+p,psia=    47.50  
+reactants 
+reac  oxid O2(L)  wt%=100.000000   t(k)=  90.00
+           
+      fuel H2(L)  wt%=100.000000   t(k)=  20.00
+           
+
+output transport siunits plot t mach gam prand rho visc son cond 
+end
